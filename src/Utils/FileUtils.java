@@ -49,7 +49,7 @@ public class FileUtils {
             return (T) Integer.valueOf(Integer.parseInt(line));
         }
         if(clazz == String.class){
-            return (T)(Object)Integer.parseInt(line);
+            return (T)(Object)String.valueOf(line);
         }
         if(clazz == Float.class){
             return (T)(Object)Integer.parseInt(line);
