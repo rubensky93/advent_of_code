@@ -1,4 +1,4 @@
-package problem_2;
+package problem_1_b;
 
 import Utils.FileUtils;
 
